@@ -23,5 +23,9 @@ class ChartJsAsset extends AssetBundle
     public $js = [
         'Chart.js'
     ];
+    
+    public $depends = [
+        'yii\web\JqueryAsset',
+    ];
 
 }
